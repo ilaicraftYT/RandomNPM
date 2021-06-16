@@ -8,13 +8,32 @@ npm i randomnpm
 
 ## Uso
 
-Puedes usar el paquete para diferentes cosas, aqui los ejemplos:
+El uso de este paquete es simple: Haz una request y luego recibe lo que querias. 
+
+
+Ejemplos posibles:
+  
+### Chiste
 
 ```js
 const randomnpm = require("randomnpm");
-// @return {String} | Returna un string con el chiste
-const chistee = randomnpm.chiste()
+
+// @return {String} | Retorna un string con el chiste
+const chiste = randomnpm.chiste()
 
 
 console.log(chistee)
 ```
+
+### Frase
+
+```js
+const randomnpm = require("randomnpm");
+
+// @return {String} | Retorna frase alealtoria
+const frase = randomnpm.frase();
+
+
+console.log(frase)
+```
+
