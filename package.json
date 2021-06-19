@@ -1,6 +1,6 @@
 {
   "name": "randomnpm",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "RandomNPM es un paquete npm que te regresara chistes, memes, etc, totalmente alealtorio",
   "main": "src/index.js",
   "scripts": {
