@@ -29,7 +29,7 @@
   } 
   // @return {string} | Frase alealtoria
  function frase(){
-   return frases[Math.floor(Math.random * frases.length)];
+   return frases[Math.floor(Math.random() * frases.length)];
  }
  
 module.exports = {
